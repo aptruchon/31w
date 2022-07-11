@@ -2,7 +2,7 @@
 /*! 
 Theme Name: 31W-cours 
 Author: Alex P. Truchon
-Author URI: 
+Author URI: https://github.com/aptruchon
 Description: Thème de base pour le cours de 31W
 Version: 1.0.0
 Tested up to: 5.4
@@ -384,12 +384,12 @@ body {
 *  styles pour h1,h2,h3,h4,h5mh6 et p
 */
 h1, h2 {
-  color: #4d4d4d;
+  color: #dfdfdf;
   font-family: "Montserrat", sans-serif;
 }
 
 h3, h4, h5, h6, p {
-  color: #1a1a1a;
+  color: #acacac;
   font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
@@ -585,6 +585,17 @@ textarea {
 }
 
 /*--------------------------------------------------------------
+# Composantes
+--------------------------------------------------------------*/
+.menu__sidebar {
+  background-color: bisque;
+}
+
+.menu__sidebar__ul {
+  background-color: #e0a45b;
+}
+
+/*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
 /*
@@ -603,24 +614,24 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 
 .site__header {
   grid-area: header;
-  background-color: #779e7d;
+  background-color: #373e3e;
 }
 
 .site__main {
   grid-area: main;
   overflow: hidden;
   /* Resolves issue with <pre> elements forcing full width. */
-  background-color: #95b399;
+  background-color: #4e5a5a;
 }
 
 .site__sidebar {
   grid-area: sidebar;
-  background-color: #b3c8b6;
+  background-color: #667575;
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: #779e7d;
+  background-color: #373e3e;
 }
 
 @media screen and (min-width: 700px) {
