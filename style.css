@@ -588,11 +588,14 @@ textarea {
 # Composantes
 --------------------------------------------------------------*/
 .menu__sidebar {
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
 .menu__sidebar__ul {
-  background-color: #e0a45b;
+  /* background-color: rgb(224, 164, 91); */
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 0;
 }
 
 /*--------------------------------------------------------------
@@ -604,7 +607,7 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 */
 .site {
   display: grid;
-  grid-template-columns: 20vw auto;
+  grid-template-columns: 30vw auto;
   grid-template-areas: "header header" "sidebar sidebar" "main main" "footer footer";
 }
 
@@ -636,7 +639,7 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 
 @media screen and (min-width: 700px) {
   .site {
-    grid-template-columns: 20vw auto;
+    grid-template-columns: 30vw auto;
     grid-template-areas: "header header" "sidebar main" "footer footer";
   }
 }

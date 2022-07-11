@@ -1,7 +1,11 @@
 .menu__sidebar {
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 .menu__sidebar__ul {
-    background-color: rgb(224, 164, 91);
+    /* background-color: rgb(224, 164, 91); */
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem 0;
+
 }
