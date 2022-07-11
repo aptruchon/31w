@@ -480,6 +480,7 @@ table {
 --------------------------------------------- */
 a {
   color: #4169e1;
+  font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 a:visited {
@@ -594,7 +595,7 @@ textarea {
   /* background-color: rgb(224, 164, 91); */
   list-style-type: none;
   margin: 0;
-  padding: 1rem 0;
+  padding: .4rem 0;
 }
 
 .menu__sidebar__ul .menu-item {
@@ -606,7 +607,7 @@ textarea {
 .menu__sidebar__ul .menu-item a {
   text-decoration: none;
   padding: .5rem;
-  line-height: 1rem;
+  line-height: 1.5rem;
 }
 
 .menu__sidebar__ul .menu-item a:hover {
