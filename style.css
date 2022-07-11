@@ -587,15 +587,31 @@ textarea {
 /*--------------------------------------------------------------
 # Composantes
 --------------------------------------------------------------*/
-.menu__sidebar {
-  /* background-color: bisque; */
-}
-
+/* .menu__sidebar {
+    background-color: rgb(90, 81, 69);
+} */
 .menu__sidebar__ul {
   /* background-color: rgb(224, 164, 91); */
   list-style-type: none;
   margin: 0;
   padding: 1rem 0;
+}
+
+.menu__sidebar__ul .menu-item {
+  text-decoration: none;
+  margin-bottom: 5px;
+  margin: .5rem 0;
+}
+
+.menu__sidebar__ul .menu-item a {
+  text-decoration: none;
+  padding: .5rem;
+  line-height: 1rem;
+}
+
+.menu__sidebar__ul .menu-item a:hover {
+  /* font-size: 19px; */
+  background-color: #4e5a5a;
 }
 
 /*--------------------------------------------------------------
