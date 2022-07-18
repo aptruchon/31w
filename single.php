@@ -15,10 +15,7 @@ if (have_posts()):
         <code><?= $sigle ?></code>
         <code><?= $heure ?></code>
 
-
-
-
-
+        
     <?php endwhile; ?>
 <?php endif; ?>    
 </section>
