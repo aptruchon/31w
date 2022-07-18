@@ -390,7 +390,7 @@ h1, h2 {
 
 h3, h4, h5, h6, p {
   color: #acacac;
-  font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: Andale, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 h1 {
@@ -480,11 +480,11 @@ table {
 --------------------------------------------- */
 a {
   color: #4169e1;
-  font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: Andale, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 a:visited {
-  color: #800080;
+  color: #ac93d6;
 }
 
 a:hover, a:focus, a:active {
